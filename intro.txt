@@ -2,4 +2,10 @@ using:
     -pip install djangorestframework
     -pip install pytest
     -pip install dajngo-mptt
+    -pip install coverage
     -pip install pytest-django      (using this for more module)
+    
+
+command:
+    - py manage.py spectacular --file schema.yml
+    - coverage run -m pytest
